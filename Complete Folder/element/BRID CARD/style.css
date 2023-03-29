@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', Semi Bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.con {
+  margin-top: 20px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contain {
+  width: 451px;
+  height: 208px;
+  border: 2px solid #f4f4f6;
+  border-radius: 4px;
+}
+
+.contain:hover {
+  outline-color: #00CCF5;
+  outline-style: solid;
+  outline-width: 4px;
+  opacity: 0.8;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.label {
+  margin-left: 20px;
+  width: 85px;
+  height: 30.12px;
+  background: white;
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid;
+  border-color: #56595a;
+  border-bottom: 0px 3px 0px 0px #56595a;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.font {
+  font-size: 16pt;
+  color: #a4a4a4;
+}
+
+.font1 {
+  font-size: 26pt;
+  color: #545454;
+}
+
+.font2 {
+  font-size: 19pt;
+  color: #424242;
+}
+
+.font3 {
+  font-size: 14pt;
+  color: #56595a;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+}
+
+.dot {
+  width: 24px;
+  height: 24px;
+  margin-left: 23px;
+}

@@ -1,0 +1,140 @@
+.footer-middle-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 50px;
+  background: url(assets/img/footer-back.png);
+  background-size: cover;
+  height: 209px;
+}
+.footer-middle-container-menu {
+  display: flex;
+  flex-direction: row;
+}
+@media (width < 1392px) {
+  .footer-middle-container-menu {
+    flex-direction: column;
+  }
+}
+.footer-middle-container-menus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (width < 648px) {
+  .footer-middle-container-menus-icon {
+    width: 25px;
+  }
+}
+.footer-middle-container-menus-link {
+  color: #f9f9f9;
+  font-size: 22px;
+  text-decoration: underline;
+  margin-left: 56px;
+  min-width: 265px;
+  cursor: pointer;
+}
+@media (width < 648px) {
+  .footer-middle-container-menus-link {
+    font-size: 11px;
+    min-width: unset;
+    margin-left: 28px;
+  }
+}
+.footer-middle-container-menus-link-icon {
+  width: 15px;
+  height: 15px;
+  rotate: 90deg;
+  margin-top: -6px;
+  margin-right: 10px;
+  filter: brightness(0) invert(1);
+}
+.footer-middle-container-menus-link:hover {
+  filter: invert(41%) sepia(91%) saturate(1896%) hue-rotate(164deg) brightness(99%) contrast(101%);
+}
+.footer-middle-container-social {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-middle-container-social-sites {
+  display: grid;
+  align-items: center;
+  margin-right: 40px;
+  filter: brightness(0) invert(1);
+}
+@media (width < 425px) {
+  .footer-middle-container-social-sites {
+    justify-content: center;
+    margin: 20px 0 20px 30px;
+  }
+}
+.footer-middle-container-social-sites img {
+  margin: 15px 0;
+  width: 40px;
+}
+.footer-middle-container-social-sites img:hover {
+  cursor: pointer;
+}
+@media (width < 648px) {
+  .footer-middle-container-social-sites img {
+    width: 20px;
+    margin-right: 20px;
+  }
+}
+.footer-middle-container-social-mail {
+  display: flex;
+  align-items: center;
+}
+.footer-middle-container-social-mail-info {
+  font-size: 18px;
+  color: #f9f9f9;
+}
+@media (width < 648px) {
+  .footer-middle-container-social-mail-info {
+    font-size: 9px;
+  }
+}
+
+.footer-up-container {
+  background: url(assets/img/lvc_foot_vasara.svg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+@media (width < 648px) {
+  .footer-up-container-image {
+    width: 320px;
+  }
+}
+
+.footer-end {
+  background-color: #f4f4f6;
+}
+.footer-end-font {
+  font-size: 18px;
+  font-family: "Montserrat", Semi Bold;
+  color: #4d4f50;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  justify-items: center;
+  padding: 39px 0px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+@media (width < 1074px) {
+  .footer-end-font {
+    font-size: 14px;
+  }
+}
+@media (width < 818px) {
+  .footer-end-font {
+    font-size: 10px;
+  }
+}
+@media (width < 475px) {
+  .footer-end-font {
+    font-size: 6px;
+  }
+}/*# sourceMappingURL=footer.css.map */

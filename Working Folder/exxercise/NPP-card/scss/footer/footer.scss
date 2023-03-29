@@ -1,0 +1,148 @@
+@import "../variables.scss";
+@import "../mixins.scss";
+
+.footer-middle-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px;
+    background: url(assets/img/footer-back.png);
+    background-size: cover;
+    height: 209px;
+
+    &-menu {
+        display: flex;
+        flex-direction: row;
+
+        @media (width < 1392px) {
+            flex-direction: column;
+        }
+    }
+
+    &-menus {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &-icon {
+            @media (width < 648px) {
+                width: 25px;
+            }
+        }
+
+        &-link {
+            color: $white-color;
+            font-size: 22px;            
+            text-decoration: underline;
+            margin-left: 56px;
+            min-width: 265px;
+            cursor: pointer;
+
+            @media (width < 648px) {
+                font-size: 11px;
+                min-width: unset;
+                margin-left: 28px;
+            }
+
+            &-icon {
+                width: 15px;
+                height: 15px;
+                rotate: 90deg;
+                margin-top: -6px;
+                margin-right: 10px;
+
+                filter: brightness(0) invert(1);
+            }            
+
+            &:hover {
+                filter: invert(41%) sepia(91%) saturate(1896%) hue-rotate(164deg) brightness(99%) contrast(101%);
+            }
+        }
+    }
+
+    &-social {
+        display: flex;
+        justify-content: space-between;
+
+        &-sites {
+            display: grid;
+            align-items: center;
+            margin-right: 40px;
+            filter: brightness(0) invert(1);
+
+            @media (width < 425px) {
+                justify-content: center;
+                margin: 20px 0 20px 30px;
+            }
+
+            & img {
+                margin: 15px 0;
+                width: 40px;
+
+                &:hover {
+                    cursor: pointer;
+                }
+
+                @media (width < 648px) {
+                    width: 20px;
+                    margin-right: 20px;
+                }
+            }
+        }
+
+        &-mail {
+            display: flex;
+            align-items: center;
+            &-info {
+                font-size: 18px;
+                color: $white-color;
+
+                @media (width < 648px) {
+                    font-size: 9px;
+                }
+            }
+        }
+    }
+}
+
+.footer-up-container {
+    background: url(assets/img/lvc_foot_vasara.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 200px;
+
+    &-image {
+        @media (width < 648px) {            
+            width: 320px;
+        }
+    }
+}
+
+.footer-end {
+    background-color: #f4f4f6;
+
+    &-font {
+        font-size: 18px;
+        font-family: "Montserrat", Semi Bold;
+        color: #4d4f50;
+        margin: auto;
+        align-items: center;
+        display: flex;
+        justify-items: center;
+        padding: 39px 0px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+
+        @media (width < 1074px) {
+            font-size: 14px;
+        }
+
+        @media (width < 818px) {
+            font-size: 10px;
+        }
+
+        @media (width < 475px) {
+            font-size: 6px;
+        }
+    }
+}

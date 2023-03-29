@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <label class="label" onmouseover="mouseover()" onmouseleave="mouseleave()">
+      <p class="font">Sit amet consectetur</p>
+      <img class="icon" id="close" src="icon.svg" hidden="true" />
+    </label>
+    <script>
+      function mouseover() {
+    document.getElementById("close").hidden = false;
+  }
+  function mouseleave() {
+    document.getElementById("close").hidden = true;
+  }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+@import "./variables.scss";
+
+@mixin footer-categories($width) {
+    color: $white-color;
+    font-size: 20px;
+    margin-left: 45px;
+    cursor: pointer;
+    width: $width;
+}
+
+@mixin register-button-type($width, $height, $fontSize) {
+    width: $width;
+    height: $height;
+    font-size: $fontSize;
+    color: white;
+    background-color: #00ccf5;
+    border: unset;
+    border-radius: 10px;
+    box-shadow: 0 5px #309dbc;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #00bde3;
+    }
+
+    &:active {
+        border: none;
+        background-color: #00ccf5;
+        box-shadow: 0 -3px 0 0 #309dbc;
+    }
+}
+
+@mixin checkbox($width, $height, $fontSize) {
+    
+}

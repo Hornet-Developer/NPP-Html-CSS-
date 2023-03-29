@@ -1,0 +1,93 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', Semi Bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.font {
+  font-size: 35pt;
+  color: #4d4f50;
+}
+
+.font1 {
+  font-size: 19px;
+  color: #424242;
+}
+
+.container {
+  background-color: #f4f4f6;
+  width: 411px;
+  height: 20px;
+}
+
+.scroll {
+  width: 111px;
+  height: 20px;
+  background-color: #56595a;
+}
+
+.content-letter {
+  height: 250px;
+  overflow-y: scroll;
+}
+
+.content-letter::-webkit-scrollbar {
+  width: 20px;               /* width of the entire scrollbar */
+}
+
+.content-letter::-webkit-scrollbar-track {
+  background: #f4f4f6;
+}
+
+.content-letter::-webkit-scrollbar-thumb {
+  background-color: #56595a;    /* color of the scroll thumb */
+}
+
+.content-letter::-webkit-scrollbar-button:single-button {
+  background-color: #56595a;
+  display: block;
+  border-style: solid;
+  height: 13px;
+  width: 16px;
+}
+
+.content-letter::-webkit-scrollbar-button:single-button:vertical:decrement {
+  border-radius: 10px 10px 0px 0px;
+  height: 20px;
+  background-image: url("./scrollup.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 8px 5px;
+  border-color: #56595a;
+}
+
+.content-letter::-webkit-scrollbar-button:single-button:vertical:decrement:hover {
+  border-color: transparent transparent #bbbbbb transparent;
+}
+/* Down */
+.content-letter::-webkit-scrollbar-button:single-button:vertical:increment {
+  border-radius: 0px 0px 10px 10px;
+  height: 20px;
+  background-image: url("./scrolldown.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 8px 5px;
+  border-color: #56595a;
+}
+
+.content-letter::-webkit-scrollbar-button:vertical:single-button:increment:hover {
+  border-color: #777777 transparent transparent transparent;
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {  
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', Semi Bold;
+  text-align: left;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.H1 {
+  font-size: 35pt;
+  color: #4d4f50;
+}
+
+.H1:hover {
+  font-size: 35pt;
+  color: #4d4f50;
+}
+
+.H2 {
+  font-size: 26pt;
+  color: #545454;
+}
+
+.H2:hover {
+  font-size: 26pt;
+  color: #545454;
+}
+
+.P1 {
+  font-size: 19pt;
+  color: #424242;
+}
+
+.P1:hover {
+  font-size: 19pt;
+  color: #424242;
+}
+
+.P2 {
+  font-size: 19pt;
+  color: #424242;
+}
+
+.P2:hover {
+  font-size: 19pt;
+  color: #424242;
+}
+
+.L1 {
+  font-size: 19pt;
+  color: #00ccf5;
+  text-decoration-line: underline;
+}
+
+.L1:hover {
+  font-size: 19pt;
+  color: #00ccf5;
+  text-decoration-line: underline;
+}
+
+.T1 {
+  font-size: 26pt;
+  color: #545454;
+}
+
+.T1:hover {
+  font-size: 26pt;
+  color: #545454;
+}
+
+.L2 {
+  font-size: 26pt;
+  color: #00ccf5;
+  text-decoration-line: underline;
+}
+
+.L2:hover {
+  font-size: 26pt;
+  color: #00ccf5;
+  text-decoration-line: underline;
+}
+
+.icon {
+  width: 9px;
+  height: 9px;
+  margin: 2px 10px 2px 2px;
+}

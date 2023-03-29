@@ -1,0 +1,21 @@
+@import "scss/header/header.scss";
+@import "scss/slidebar/slide.scss";
+@import "scss/slidebar/small-slide.scss";
+@import "scss/categories/categories.scss";
+@import "scss/dataProvide/dataProvide.scss";
+@import "scss/footer/footer.scss";
+@import "scss/state/state.scss";
+@import "scss/header/select.scss";
+@import "scss/header/languageSelect.scss";
+@import "scss/header/envSelect.scss";
+@import "scss/card/card.scss";
+@import "scss/content/content.scss";
+@import "scss/dashboard/dashboard.scss";
+
+body {
+    margin: 0;
+    max-width: 1450px;
+    margin: auto;
+    font-family: 'Montserrat', Semi Bold;
+    color: #545454;
+}
